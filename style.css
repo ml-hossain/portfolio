@@ -199,7 +199,7 @@ body {
   position: absolute;
   left: 100%;
   animation: autoRune 11s linear infinite;
-  animation-delay: calc((11s / var(--quantity)) * (var(--position) - 1));
+  animation-delay: calc((11s / var(--quantity)) * (var(--position) - 11));
   transition: all 0.5s;
 }
 .slider .list .box img {
